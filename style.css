@@ -1,0 +1,206 @@
+body {
+    font-family: mulish, sans-serif;
+    margin:0;
+    color:#37414c;
+}
+
+p {
+    font-size: small;
+}
+#announcement-bar {
+    display: flex;
+    flex-wrap: wrap; /*Retour automatique des éléments (Responsive) */
+    align-items: center; /* aligne le contenu verticalement */
+    justify-content: center; /* aligne le contenu horizontalement */
+    background-color: #eddec8;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Utilise la couleur du texte parent */
+}
+
+#announcement-bar a:hover {
+    text-decoration: underline;
+}
+
+i {
+    margin: 5px;
+}
+
+.announcement-bar-item {
+    flex-grow: 1;
+    display: inline-block; /*Adapter le container au contenu */
+    align-items: center; /* aligne le contenu verticalement */
+    justify-content: center; /* aligne le contenu horizontalement */
+    margin: 5px;
+    padding: 5px;
+    font-size: small;
+    text-align: center;
+    font-weight:bold;
+}
+
+#espace-pro {
+    width: 10%;
+}
+
+#announcement {
+    width: 80%;
+}
+
+#announcement a {
+    text-decoration: underline;
+}
+
+#lang {
+    width: 5%;
+}
+
+#main-menu {
+    display: flex;
+    flex-wrap: wrap; /*Retour automatique des éléments (Responsive) */
+    align-items: center; /* aligne le contenu verticalement */
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.main-menu-item {
+    flex-grow: 1;
+    display: inline-block; /*Adapter le container au contenu */
+    align-items: center; /* aligne le contenu verticalement */
+    justify-content: center; /* aligne le contenu horizontalement */
+    margin: 5px;
+    padding: 5px;
+    font-size: small;
+    text-align: center;
+    font-weight:bold;
+}
+
+#logo {
+    padding: 20px;
+    width: 7%;
+}
+
+#search-bar input {
+    border-style: none;
+    width: 80%;
+}
+
+#search-bar input:focus {
+    outline: none;
+}
+
+#search-bar input::placeholder {
+    color:rgb(205, 204, 204);
+    font-size: 14px;
+}
+
+#search-bar i {
+    color: rgb(205, 204, 204);
+}
+    
+#search-bar {
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid rgb(205, 204, 204);
+    padding: 15px;
+    font-family: mulish, sans-serif;
+    background-color: white;
+}
+
+#icon-menu i {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.product-menu {
+    display: flex;
+    padding: 0 5%;
+}
+
+.product-menu li {
+    display: flex;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.product-menu li a:hover {
+    text-decoration: underline;
+}
+
+#home-banner {
+    background-image: url('img/banner-serums_visage_certifies_bio_avril.jpg');
+    background-size: cover;
+    height:700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#encart-banner {
+    padding: 20px 60px;
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    margin-right: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#encart-banner h2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+#encart-banner h1 {
+    font-family: Ovo, sans-serif;
+    font-weight: 590;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#encart-banner p {
+    font-size: 14px;
+}
+
+#encart-banner .price {
+    font-weight: bolder;
+}
+
+#encart-banner button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+    background-color: #b9c7e2;
+}
+
+#encart-banner button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+}
+
+#promesse {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    background-color: #f9f9f9;
+}
+
+#promesse-item {
+    margin: 20px 60px;
+}
+
+#promesse-item img {
+    width: 120px;
+}
