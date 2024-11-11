@@ -204,3 +204,272 @@ i {
 #promesse-item img {
     width: 120px;
 }
+
+#new-product {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 5%;
+    background-color: #eaeaea;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#new-product h1 {
+    width: 40%;
+    margin-top: 30px;
+    font-family: Ovo;
+    text-align: start;
+    padding: 0 5%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#new-product a {
+    font-weight: 400;
+    text-align: end;
+    padding: 0 5%;
+    font-size: 18px;
+    width: 40%;
+    margin-top: 30px;
+}
+
+#new-product a:hover {
+    text-decoration: underline;
+}
+
+.new-product-item {
+    width: 12%;
+    margin:10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.new-product-item i {
+    display: flex;
+    margin-left: auto;
+}
+
+.new-product-item i:hover {
+    color: red; 
+    cursor: pointer;
+}
+
+.new-product-item img{
+    width: 100%;
+    background-color: white;
+}
+
+.new-product-item hr {
+    width: 90%;
+}
+
+.new-product-item .price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.new-product-item button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+    background-color: #b9c7e2;
+}
+
+.new-product-item button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+}
+
+#noel {
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+#img-noel {
+    width: 50%;
+}
+
+#img-noel img {
+    width: 100%;
+    margin: 5%;
+}
+
+#encart-noel {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% 10%;
+}
+
+#encart-noel h2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+#encart-noel h1 {
+    font-family: Ovo, sans-serif;
+    font-weight: 590;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#encart-noel p {
+    font-size: 14px;
+}
+
+#encart-noel .price {
+    font-weight: bolder;
+}
+
+#encart-noel button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+    background-color: #b9c7e2;
+}
+
+#encart-noel button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+}
+
+#store {
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+#img-store {
+    width: 60%;
+}
+
+#img-store img {
+    width: 100%;
+    margin: 5%;
+}
+
+#encart-store {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#encart-store h1 {
+    font-family: Ovo, sans-serif;
+    font-weight: 590;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#encart-store p {
+    font-size: 14px;
+}
+
+#encart-store button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+    background-color: #b9c7e2;
+}
+
+#encart-store button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+}
+
+#green {
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+#img-green {
+    width: 50%;
+}
+
+#img-green img {
+    width: 100%;
+    margin: 5%;
+}
+
+#encart-green {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% 10%;
+}
+
+#encart-green h1 {
+    font-family: Ovo, sans-serif;
+    font-weight: 590;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#encart-green p {
+    font-size: 14px;
+}
+
+#encart-green button {
+    margin-top: 30px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: mulish, sans-serif;
+    font-weight: 600;
+    background-color: #b9c7e2;
+}
+
+#encart-green button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+}
+
+#about {
+    padding: 2% 5%;
+    background-color: #eaeaea;
+}
+
+#about h1 {
+    font-family: Ovo;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
