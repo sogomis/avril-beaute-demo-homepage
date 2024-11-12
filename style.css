@@ -473,3 +473,37 @@ i {
     padding-bottom: 10px;
     font-weight: 500;
 }
+
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+#services h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+
+#services p {
+    text-align: center;
+}
+
+#services img {
+    width: 150px;
+}
+
+.vertical-line {
+    border-left: 1px dashed #c9c7c7;
+    display: inline-block;
+    height: 200px;
+    margin: 0 20px;
+  }
+
+.services-item {
+    padding: 40px;
+}
