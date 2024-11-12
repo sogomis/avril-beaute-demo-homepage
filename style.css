@@ -507,3 +507,88 @@ i {
 .services-item {
     padding: 40px;
 }
+
+#menu-bas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.menu-bas-item {
+    width: 15%;
+}
+
+.menu-bas-item h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu-bas-item a {
+    font-size: 12px;
+}
+
+.menu-bas-item a:hover {
+    text-decoration: underline;
+}
+
+.menu-bas-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.newsletter {
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+.newsletter h1 {
+    font-family: Ovo;
+    font-weight: 400;
+}
+
+#newsletter-bar input {
+    border-style: none;
+    width: 80%;
+}
+
+#newsletter-bar input:focus {
+    outline: none;
+}
+
+#newsletter-bar input::placeholder {
+    color:rgb(205, 204, 204);
+    font-size: 14px;
+}
+
+#newsletter-bar i {
+    color: rgb(205, 204, 204);
+}
+    
+#newsletter-bar {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(205, 204, 204);
+    padding: 15px;
+    font-family: mulish, sans-serif;
+    background-color: white;
+}
+
+#social-icon {
+    font-size: 25px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 2% 5%;
+}
+
+#footer img {
+    width: 75px;
+}
