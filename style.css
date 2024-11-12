@@ -592,3 +592,11 @@ i {
 #footer img {
     width: 75px;
 }
+
+.footer-item {
+    margin-right: 30px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
